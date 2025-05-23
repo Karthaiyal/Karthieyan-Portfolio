@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 300px;
+    padding: 0px;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem;
+    background: #fff;
+    margin: 1rem;
+    border-radius: 8px;
+  }
+  
+  .container {
+    display: block;
+    padding: 10px;
+    background-color: #f4f4f4;
+  }
+  
+  .cards, #projects, #language-personality, #contact { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding-top: 20px;
+  }
+  
+  .card { 
+    background-color: whitesmoke;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card h2 { 
+    text-align: center;
+    padding: 40px 40px 40px 40px;
+  }
+  
+  .card ul { 
+    list-style: none;
+  }
+  
+  .sidebar {
+    height: 200vh;
+    width: 300px;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+  }
+  
+  .profile-photo { 
+    width: 210px;
+    height: 220px;
+  }
+  
+  #language-personality h3 { 
+    text-align: left;
+  }
+  
+  footer { 
+    background-color: #333;
+    color: white;
+  }
+  
+  @media(max-width:767px) { 
+    body { font-size: 14px;
+    }
+  }
+  
+  @media(min-width:768px) and (max-width:1023px) { 
+    body { font-size: 16px;
+    }
+  }
+  
+  @media(min-width:1024px)  { 
+    body { font-size: 18px;
+    }
+  }
+  
+  .linkedin-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  .linkedin-link:hover {
+    background-color: #005983;
+  }
+  
+  .github-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  .github-link:hover {
+    background-color: #333;
+  }
+  
+  .gmail-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgba(255, 0, 0, 0.507);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  .gmail-link:hover {
+    background-color: rgba(255, 0, 0, 0.800);
+  }
+  
+  .card:hover {
+    background-color: whitesmoke;
+    transition: background-color 0.3s;
+    transform: scale(1.10);
+  }
+  
+  .card a { 
+    margin: 10px 0;
+  }
+  
+  #contact h2 { 
+    text-align: center;
+    padding: 75px 75px 75px 75px;
+  }
+  
+  #profile-photo:hover {
+    transform: scale(1.10);
+  }
